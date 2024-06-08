@@ -16,3 +16,5 @@ social: true # includes social icons at the bottom of the page
 He is currently a Ph.D. Candidate at Max Planck Research School for Intelligent Systems (IMPRS-IS) and University of Stuttgart. 
 
 His topics of interest are Hybrid Discrete-Continuous Learning, Scalable Algorithms for Multi-modal Learning, Machine Learning for Healthcare and Simulation Science.
+
+Please visit my [Google Scholar](https://scholar.google.com/citations?user=_NIyeykAAAAJ) for full list of publications and [GitHub](https://github.com/duyhominhnguyen) for source codes.
