@@ -7,8 +7,12 @@ subtitle: Nguyen Ho Minh Duy
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-
+  image_circular: true # crops the image to make it circular
+  more_info: >
+    <p>Universitätsstraße 32</p>
+    <p>70569 Stuttgart, Germany</p>
+    <p>Room: 2.321</p>
+ 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

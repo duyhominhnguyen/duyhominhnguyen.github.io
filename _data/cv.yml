@@ -68,3 +68,11 @@
     - year: 2015
       items:
         - Sakura Scholarship for Exchange Program in Science at JAIST (Japan Advanced Institute of Science and Technology)
+
+- title: Teaching and Services
+  type: map
+  contents:
+    - name: Teaching
+      value: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024)."
+    - name: Reviewer
+      value: AAAI (2022-2023), MICCAI (2022-2024), CVPR (2024), NeurIPS (2024), IEEE Transactions on Medical Imaging (TMI).
