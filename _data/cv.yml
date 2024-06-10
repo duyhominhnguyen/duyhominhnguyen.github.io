@@ -16,26 +16,26 @@
       year: Now
       description:
         - "Hybrid Discrete-Continuous Learning, Scalable Algorithms for Multi-modal Learning, Machine Learning for Healthcare and Simulation Science"
-        - "Supervisor: Prof. Mathias Niepert"
+        - "Supervisor: [Prof. Mathias Niepert](https://www.matlog.net/)"
     - title: Master Degree
       institution: Max-Planck-Institut für Informatik and Saarland University
       year: 2021
       description:
         - "Machine Learning and Computer Vision"
-        - "Supervisor: Prof. Paul Swoboda"
+        - "Supervisor: [Prof. Paul Swoboda](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/paul-swoboda/)"
     - title: Bachelor Degree (Honours Programme)
       institution: Vietnam National University - Ho Chi Minh City, Vietnam
       year: 2015
       description:
         - "Mathematics and Computer Science"
-        - "Supervisor: Prof. Nguyen Thanh Binh"
+        - "Supervisor: [Prof. Nguyen Thanh Binh](https://scholar.google.com.vn/citations?user=dXEb3PMAAAAJ&hl=en)"
 
 - title: Experience
   type: time_table
   contents:
     - title: Visiting Researcher
       institution: ETH AI Center, ETH Zurich, Switzerland
-      year: 2024
+      year: Summer 2024
 
     - title: Full-time Researcher
       institution: German Research Center for Artificial Intelligence (DFKI)
@@ -43,7 +43,7 @@
 
     - title: Research Intern
       institution: University of California San Diego (UCSD), USA
-      year: 2021
+      year: Summer 2021
 
     - title: Data Scientist
       institution: VNG Corporation, Vietnam
