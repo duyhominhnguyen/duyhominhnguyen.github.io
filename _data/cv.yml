@@ -33,23 +33,23 @@
   type: time_table
   contents:
     - title: Visiting Researcher
-      institution: <a href=\"https://ai.ethz.ch/\">ETH AI Center</a> , ETH Zurich, Switzerland
+      institution: "<a href=\"https://ai.ethz.ch/\">ETH AI Center</a> , ETH Zurich, Switzerland"
       year: Summer 2024
 
     - title: Full-time Researcher
-      institution: German Research Center for Artificial Intelligence <a href=\"https://www.dfki.de/web\">(DFKI)</a>
+      institution: "German Research Center for Artificial Intelligence <a href=\"https://www.dfki.de/web\">(DFKI)</a>"
       year: 2021-Now
 
     - title: Research Intern
-      institution: University of California San Diego <a href=\"https://www.ucsd.edu/\">(UCSD)</a>, USA
+      institution: "University of California San Diego <a href=\"https://www.ucsd.edu/\">(UCSD)</a>, USA"
       year: Summer 2021
 
     - title: Data Scientist
-      institution: <a href=\"https://www.vng.com.vn/index.html\">VNG Corporation</a>, Vietnam
+      institution: "<a href=\"https://www.vng.com.vn/index.html\">VNG Corporation</a>, Vietnam"
       year: 2017-2018
       
     - title: Research Intern
-      institution: Japan Advanced Institute of Science and Technology <a href=\"https://www.jaist.ac.jp/english/\">(JAIST)</a>
+      institution: "Japan Advanced Institute of Science and Technology <a href=\"https://www.jaist.ac.jp/english/\">(JAIST)</a>"
       year: 2015
 
 - title: Honors and Awards
