@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently a Ph.D. Candidate under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)) and [University of Stuttgart](https://www.simtech.uni-stuttgart.de/). I have also been a researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
+I am currently a Ph.D. Candidate under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)) and [University of Stuttgart](https://www.simtech.uni-stuttgart.de/). I have also been a Researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
 
 My topics of interest are Hybrid Discrete-Continuous Learning (differentiable relaxations for discrete intermediate representations), Scalable Algorithms for Multi-modal Learning with applications for Healthcare, Simulation Science, and Efficient Deep Learning (model compression, accelerated training/inference, etc.) 
 
