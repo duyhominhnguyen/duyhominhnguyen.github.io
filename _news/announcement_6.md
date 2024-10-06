@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:bell: Exicted to introduce our latest work on medical multi-modal LLMs, namely [LoGra-Med](https://arxiv.org/abs/2410.02615), a new pre-training algorithm with multi-graph alignment which shows addressing the data-hungry of autoregressive learning.
+:bell: Excited to introduce our latest work on medical multi-modal LLMs: [LoGra-Med](https://arxiv.org/abs/2410.02615), a novel pre-training algorithm that incorporates multi-graph alignment to effectively address the data-hungry nature of autoregressive learning.
