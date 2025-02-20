@@ -57,7 +57,7 @@
   contents:
     - year: 2023
       items:
-        - <a href=\"https://www.dfki.de/en/web/news/ki-newcomer/\">Final lists AI Newcomers</a> 2023 by Federal Ministry of Education and Research (BMBF)
+        - [Final lists AI Newcomers](https://www.dfki.de/en/web/news/ki-newcomer) 2023 by Federal Ministry of Education and Research (BMBF)
     - year: 2022
       items:
         - Selected candidate for the Oxford Machine Learning Summer School 
