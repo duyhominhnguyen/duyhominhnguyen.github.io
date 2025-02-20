@@ -55,6 +55,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - <a href=\"https://www.dfki.de/en/web/news/ki-newcomer/\">(Final lists AI Newcomers)</a> 2023 by Federal Ministry of Education and Research (BMBF)
     - year: 2022
       items:
         - Selected candidate for the Oxford Machine Learning Summer School 
@@ -74,4 +77,4 @@
     - name: Teaching
       value: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024)."
     - name: Reviewer
-      value: AAAI (2022-2023), MICCAI (2022-2024), CVPR (2024), NeurIPS (2024), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI).
+      value: AAAI (2022-2023), MICCAI (2022-2025), CVPR (2024), NeurIPS (2024-2025), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI).
