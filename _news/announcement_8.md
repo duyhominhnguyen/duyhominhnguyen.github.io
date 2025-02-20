@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-:bell: Excited to share our latest work! 🎉
+:bell: Excited to share our latest work! 🎉: 
 
 (i) [On Zero-Initialized Attention: Optimal Prompt and Gating Factor Estimation](https://arxiv.org/pdf/2502.03029) – We introduce a Mixture of Experts (MoE) perspective to explain the mechanism behind LLaMA-Adapter’s prompt learning.
 
