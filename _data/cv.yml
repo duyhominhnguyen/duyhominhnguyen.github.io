@@ -72,9 +72,14 @@
         - Sakura Scholarship for Exchange Program in Science at Japan Advanced Institute of Science and Technology
 
 - title: Teaching and Services
-  type: map
+  type: nested_list
   contents:
-    - name: Teaching
-      value: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024)."
-    - name: Reviewer
-      value: AAAI (2022-2023), MICCAI (2022-2025), CVPR (2024), NeurIPS (2024-2025), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI).
+    - title: Teaching
+      items: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024)."
+    - title: Invited Talks
+      items:
+        - "<b>(Dec. 2024) Lawrence Livermore National Laboratory USA</b>: Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks"
+        - "<b>(Nov. 2024) ETH Zurich</b>: Accelerating Transformer with Spectrum-Preservation"
+        - "<b>(Aug. 2024) Perelman School of Medicine at the University of Pennsylvania</b>: Prompt Learning with Unbalanced Optimal Transport"
+    - title: Reviewer
+      items: AAAI (2022-2023), MICCAI (2022-2025), CVPR (2024), NeurIPS (2024-2025), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI).
