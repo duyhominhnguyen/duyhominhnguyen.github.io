@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:rocket: A paper submitted to [ICLR 2024](https://openreview.net/forum?id=R7dCHc2Rp0) on the topic of accelerating transformers is accepted as an oral talk.
+:rocket: A paper submitted to **ICLR 2024** on the topic of [accelerating transformers](https://openreview.net/forum?id=R7dCHc2Rp0) is accepted as an oral talk.
