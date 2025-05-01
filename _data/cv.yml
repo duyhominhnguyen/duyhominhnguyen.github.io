@@ -75,7 +75,7 @@
   type: nested_list
   contents:
     - title: Teaching
-      items: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024)."
+      items: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024-2025)."
     - title: Invited Talks
       items:
         - "<b>(Dec. 2024)</b> <a href=\"https://www.llnl.gov\">Lawrence Livermore National Laboratory USA</a>: Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks"
