@@ -88,7 +88,7 @@
 - title: Mentoring
   type: nested_list
   contents:
-    - title: "Beyond research, I actively mentor outstanding students in their academic and career goals. Students I've worked with include:"
+    - title: "<font size=\"3\">Beyond research, I actively mentor outstanding students in their academic and career goals. Students I've worked with include:</font>"
       items:
         - "<b>Tran Hoai Chau</b> - B.Sc. in Computer Science, VNU-HCMUS; currently a Ph.D. student at the University of Illinois Urbana-Champaign (<a href=\"https://illinois.edu/\">UIUC</a>)."
         - "<b>Quan Do</b> - B.Sc. in Mathematics and Computer Science, VNU-HCMUS; currently a Ph.D. student in the Data and Artificial Intelligence program at Institut Polytechnique de Paris (<a href=\"https://www.ip-paris.fr/en/research/research-departments-laboratories-centers-and-projects/departments/department-computer-science-data-and-artificial-intelligence/\">IP Paris</a>)."
