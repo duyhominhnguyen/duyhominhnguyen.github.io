@@ -14,6 +14,7 @@ profile:
     <p>Room: 2.321</p>
  
 news: true # includes a list of news items
+under_review_papers: true # includes a list of papers marked as "review={true}"
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
