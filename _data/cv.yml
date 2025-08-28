@@ -78,6 +78,7 @@
       items: "Tutor for Machine Learning Course (Saarland University 2020), Co-organizer Seminar: Recent Applications of Machine Learning in Simulation Science (University of Stuttgart, 2024-2025)."
     - title: Invited Talks
       items:
+        - "<b>(Sep. 2025)</b> <a href=\"https://www.comp.nus.edu.sg/\">School of Computing, National University of Singapore</a>: Scaling Multi-Modal Learning: Hybrid Representations and Efficient Adaptation"
         - "<b>(May. 2025)</b> <a href=\"https://www.bosch-ai.com/\">Bosch Center for Artificial Intelligence, Germany</a>: Optimized Adaptation Strategies for Multimodal Large Language Models"
         - "<b>(Dec. 2024)</b> <a href=\"https://www.llnl.gov\">Lawrence Livermore National Laboratory USA</a>: Structure-Aware E(3)-Invariant Molecular Conformer Aggregation Networks"
         - "<b>(Nov. 2024)</b> <a href=\"https://ethz.ch/en.html\">ETH Zurich</a>: Accelerating Transformer with Spectrum-Preservation"
