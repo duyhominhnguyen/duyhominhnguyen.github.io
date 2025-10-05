@@ -84,7 +84,7 @@
         - "<b>(Nov. 2024)</b> <a href=\"https://ethz.ch/en.html\">ETH Zurich</a>: Accelerating Transformer with Spectrum-Preservation"
         - "<b>(Aug. 2024)</b> <a href=\"https://www.med.upenn.edu\">Perelman School of Medicine at the University of Pennsylvania</a>: Prompt Learning with Unbalanced Optimal Transport"
     - title: Reviewer
-      items: AAAI (2022-2023), MICCAI (2022-2025), CVPR (2024), NeurIPS (2024-2025), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI).
+      items: AAAI (2022-2025), MICCAI (2022-2025), CVPR (2024-2025), NeurIPS (2024-2025), ICLR (2025), AISTATS (2025), IEEE Transactions on Medical Imaging (TMI), Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 
 - title: Mentoring
   type: nested_list
