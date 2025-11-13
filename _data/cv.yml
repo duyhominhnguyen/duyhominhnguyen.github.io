@@ -12,43 +12,52 @@
   type: time_table
   contents:
     - title: Ph.D. Candidate
+      image: imprs-is.jpg
       institution: Max Planck Research School for Intelligent Systems (IMPRS-IS) and University of Stuttgart
       year: Now
       description:
         - "Hybrid Discrete-Continuous Learning, Scalable Algorithms for Multi-modal Learning, Machine Learning for Healthcare and Simulation Science"
         - "Supervisor: <a href=\"https://www.matlog.net/\">Prof. Mathias Niepert</a>"
     - title: Master Degree
+      image: saarland.png
       institution: Max-Planck-Institut für Informatik and Saarland University
       year: 2021
       description:
         - "Machine Learning and Computer Vision"
         - "Supervisor: <a href=\"https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/paul-swoboda/\">Prof. Paul Swoboda</a>"
     - title: Bachelor Degree (Honours Programme)
+      image: hcmus.png
       institution: Vietnam National University - Ho Chi Minh City, Vietnam
       year: 2015
       description:
         - "Mathematics and Computer Science"
         - "Supervisor: <a href=\"https://scholar.google.com.vn/citations?user=dXEb3PMAAAAJ&hl=en\">Prof. Nguyen Thanh Binh</a>"
+
 - title: Experience
   type: time_table
   contents:
-    - title: Visiting Researcher
-      institution: "<a href=\"https://ai.ethz.ch/\">ETH AI Center</a> , ETH Zurich, Switzerland"
-      year: Summer 2024
-
     - title: Full-time Researcher
+      image: dfki.png
       institution: "German Research Center for Artificial Intelligence <a href=\"https://www.dfki.de/web\">(DFKI)</a>"
       year: 2021-Now
 
+    - title: Visiting Researcher
+      image: eth.jpeg
+      institution: "<a href=\"https://ai.ethz.ch/\">ETH AI Center</a> , ETH Zurich, Switzerland"
+      year: Summer 2024
+
     - title: Research Intern
+      image: ucsd.png
       institution: "University of California San Diego <a href=\"https://www.ucsd.edu/\">(UCSD)</a>, USA"
       year: Summer 2021
 
     - title: Data Scientist
+      image: vng.jpg
       institution: "<a href=\"https://www.vng.com.vn/index.html\">VNG Corporation</a>, Vietnam"
       year: 2017-2018
       
     - title: Research Intern
+      image: jaist.jpg
       institution: "Japan Advanced Institute of Science and Technology <a href=\"https://www.jaist.ac.jp/english/\">(JAIST)</a>"
       year: 2015
 
