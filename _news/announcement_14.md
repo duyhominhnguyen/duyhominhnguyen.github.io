@@ -13,4 +13,4 @@ i. **Multi-Mood** — a multi-modal large language model that integrates **video
 
 ii. **LIBERO-Mem** — a non-Markovian task suite for **short- and long-horizon object tracking and manipulation**, featuring **temporally sequenced subgoals** that challenge models to reason *beyond the current observation*.  
 
-📄 **Papers** and **Codes** will be released soon 🎉 — stay tuned!
+📄 **Codes** will be released soon 🎉 — stay tuned!
