@@ -25,17 +25,15 @@
                 {% endif %}
                 {% if content.image %}
                   <tr>
-                    <td>
-                      {% assign entry_path = content.image | prepend: '/assets/img/logo/' %}
-                      {%
-                        include figure.liquid
-                        loading="eager"
-                        path=entry_path
-                        sizes = "20px"
-                        class="preview z-depth-1 rounded"
-                        zoomable=true
-                        alt=content.image
-                      %}
+                    <td align="center">
+                      <div style="margin-top: 10px; width: 80px">
+                        {% assign entry_path = content.image | prepend: '/assets/img/logo/' %}
+                        {%
+                          include figure.liquid
+                          loading="eager"
+                          path=entry_path
+                        %}
+                      </div>
                     </td>
                   </tr>
                 {% endif %}
