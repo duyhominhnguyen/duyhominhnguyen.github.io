@@ -7,7 +7,7 @@ related_posts: false
 
 🔔 Exciting News!
 
-We’re thrilled to share that our two recent works have been accepted to **[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)** — one as an **oral** and the other as a **poster** presentation! 🎉  
+We’re thrilled to share that our two recent works have been accepted to **[AAAI 2026](https://aaai.org/conference/aaai/aaai-26/)** in Singapore 🇸🇬 — one as an **oral** and the other as a **poster** presentation! 🎉  
 
 i. **Multi-Mood** — a multi-modal large language model that integrates **video, audio, and text** with **psychological criteria** through **reinforcement learning** to enable *trustworthy and emotionally aligned responses*.  
 
