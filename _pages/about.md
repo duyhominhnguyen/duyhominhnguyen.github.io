@@ -22,7 +22,7 @@ I am currently a final-year Ph.D. Candidate under the supervision of [Prof. Math
 
 My topics of interest are 
 - Hybrid Discrete-Continuous Learning (differentiable relaxations for discrete intermediate representations)
-- Scalable Algorithms for Multi-modal Learning with applications for Healthcare, Simulation Science
+- Scalable Algorithms for Multi-modal Learning with applications for low-resouce domains such as Healthcare, Simulation Science, or Robotic Manipulation.
 - Efficient Deep Learning (model compression, accelerated training/inference, etc.) 
 
 Please visit my [Google Scholar](https://scholar.google.com/citations?user=_NIyeykAAAAJ) for a full list of publications and [GitHub](https://github.com/duyhominhnguyen) for source codes.
