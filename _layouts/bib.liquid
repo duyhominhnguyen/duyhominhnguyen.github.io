@@ -76,29 +76,20 @@
           {% endfor %}
         {%- endif -%}
 
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-        {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author.last -}}
-          </em>
+          <em>{{author.first | strip}} {{author.last | strip}}</em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
-              {{- author.first }}
-              {{ author.last -}}
-            </a>
+            <a href="{{coauthor_url}}">{{author.first | strip}} {{author.last | strip}}</a>
           {%- else -%}
             {%- if author.last contains 'others' -%}
               {{- 'et al.' -}}
             {%- else -%}
-              {{- author.first }}
-              {{ author.last -}}
+              {{author.first | strip}} {{author.last | strip}}
             {%- endif -%}
-          {% endif %}
+          {%- endif -%}
         {%- endif -%}
+        {%- unless forloop.last -%},&nbsp;{%- endunless -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
 
@@ -109,7 +100,22 @@
         {%- endif -%}
         {% assign more_authors_show = '' %}
         {%- for author in entry.author_array offset: author_array_limit -%}
-          {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {% assign coauthor_url = null %}
+          {%- assign clean_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' | downcase | remove_accents -%}
+          {% if site.data.coauthors[clean_last_name] %}
+            {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+              {% if coauthor.firstname contains author.first %}
+                {%- assign coauthor_url = coauthor.url -%}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          {%- endif -%}
+
+          {%- if coauthor_url -%}
+            {% assign more_authors_show = more_authors_show | append: '<a href="' | append: coauthor_url | append: '">' | append: author.first | append: ' ' | append: author.last | append: '</a>' %}
+          {%- else -%}
+            {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+          {%- endif -%}
           {% unless forloop.last %}
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
@@ -118,17 +124,12 @@
         <span
           class="more-authors"
           title="click to view {{more_authors_hide}}"
+          data-more-authors="{{ more_authors_show | escape }}"
           onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-              var cursorPosition = 0;
-              var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
-                if (++cursorPosition == more_authors_text.length){
-                  clearInterval(textAdder);
-                }
-            }, '{{site.more_authors_animation_delay}}');
+              var more_authors_text = element.text() == '{{more_authors_hide}}' ? element.data('more-authors') : '{{more_authors_hide}}';
+              element.html(more_authors_text);
           "
         >
           {{- more_authors_hide -}}
