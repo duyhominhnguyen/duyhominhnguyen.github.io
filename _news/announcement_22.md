@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🏆 Happy to receive a **𝗢𝘂𝘁𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗥𝗲𝘃𝗶𝗲𝘄𝗲𝗿** Award from the [CVPR 2026 Organizing Committee](https://cvpr.thecvf.com/Conferences/2026/ProgramCommittee#outstanding-reviewer)!
+🏆 Happy to receive an **𝗢𝘂𝘁𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝗥𝗲𝘃𝗶𝗲𝘄𝗲𝗿** Award from the [CVPR 2026 Organizing Committee](https://cvpr.thecvf.com/Conferences/2026/ProgramCommittee#outstanding-reviewer)!
 
