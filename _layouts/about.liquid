@@ -82,5 +82,23 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
+
+    <!-- Visitor globe (UmamiMaps) -->
+    {% if site.visitor_globe.enabled %}
+      <div class="visitor-globe-section">
+        <h2>
+          visitors
+        </h2>
+        <div class="visitor-globe-card">
+          <div
+            id="visitor-globe"
+            class="visitor-globe-container"
+            data-endpoint="{{ site.visitor_globe.endpoint }}"
+            data-size="{{ site.visitor_globe.size }}"
+          ></div>
+          <p class="visitor-globe-caption">where readers of this page have visited from</p>
+        </div>
+      </div>
+    {% endif %}
   </article>
 </div>

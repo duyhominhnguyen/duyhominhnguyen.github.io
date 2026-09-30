@@ -126,6 +126,22 @@ google_site_verification: # your google-site-verification ID (Google Search Cons
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
+# Visitor globe (UmamiMaps)
+# -----------------------------------------------------------------------------
+# Small 3D globe on the About page showing where visitors come from, powered by
+# Umami Analytics + the umami-maps proxy (see visitor-globe-proxy/README.md for setup).
+# Leave "enabled: false" until the proxy is deployed and the endpoint below is live --
+# the section is hidden entirely while disabled, so there is nothing broken to see.
+visitor_globe:
+  enabled: false
+  endpoint: "https://REPLACE-WITH-YOUR-VERCEL-URL.vercel.app/api/visitor-globe"
+  size: 260
+  # Umami website ID (safe to be public -- it's the same ID used in Umami's own
+  # tracking snippet). Setting this alone turns on visitor tracking; it's
+  # independent of "enabled" above, which only controls the globe widget itself.
+  umami_website_id: ""
+
+# -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
@@ -224,6 +240,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
+  - visitor-globe-proxy/
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md

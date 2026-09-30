@@ -1180,3 +1180,43 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 }
+
+/*****************************************************************************/
+/* Visitor globe (UmamiMaps widget on the About page) */
+/*****************************************************************************/
+
+.visitor-globe-section {
+  margin-top: 1.5rem;
+}
+
+.visitor-globe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background-color: var(--global-bg-color);
+}
+
+.visitor-globe-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  width: 100%;
+}
+
+.visitor-globe-placeholder {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.visitor-globe-caption {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  margin: 0;
+  text-align: center;
+}
