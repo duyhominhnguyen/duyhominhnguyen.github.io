@@ -1123,3 +1123,33 @@ ninja-keys {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+/* Publication year filter buttons (About "selected papers" + /publications/) */
+.publication-year-filters {
+  margin-bottom: 1.5rem;
+
+  .pub-filter-btn {
+    display: inline-block;
+    margin: 0 0.4rem 0.5rem 0;
+    padding: 0.3rem 0.9rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--global-text-color);
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-text-color);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+
+    &.active {
+      color: var(--global-bg-color);
+      background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
+    }
+  }
+}
