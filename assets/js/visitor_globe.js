@@ -23,7 +23,13 @@
     var size = container.getAttribute("data-size") || "260";
 
     if (!endpoint || endpoint.indexOf("REPLACE-WITH-YOUR-VERCEL-URL") !== -1) {
-      // Config not finished yet -- fail quietly instead of loading a broken widget.
+      // Config not finished yet -- show the card/section so layout and
+      // theming can be previewed, without trying to load a broken widget.
+      container.innerHTML = "";
+      var notConfigured = document.createElement("p");
+      notConfigured.className = "visitor-globe-placeholder";
+      notConfigured.textContent = "Visitor map preview -- connect Umami + deploy the proxy (see visitor-globe-proxy/README.md) to show real data here.";
+      container.appendChild(notConfigured);
       return;
     }
 

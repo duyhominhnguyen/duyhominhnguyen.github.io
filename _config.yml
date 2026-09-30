@@ -133,7 +133,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Leave "enabled: false" until the proxy is deployed and the endpoint below is live --
 # the section is hidden entirely while disabled, so there is nothing broken to see.
 visitor_globe:
-  enabled: false
+  enabled: true
   endpoint: "https://REPLACE-WITH-YOUR-VERCEL-URL.vercel.app/api/visitor-globe"
   size: 260
   # Umami website ID (safe to be public -- it's the same ID used in Umami's own
