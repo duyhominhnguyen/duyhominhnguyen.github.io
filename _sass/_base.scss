@@ -1153,3 +1153,30 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 }
+
+/* "See more" toggle for collapsed publication lists (e.g. preprints) */
+.show-more-hidden {
+  display: none !important;
+}
+
+.show-more-container {
+  text-align: center;
+  margin-top: 0.75rem;
+
+  .show-more-btn {
+    display: inline-block;
+    padding: 0.35rem 1.1rem;
+    font-size: 0.9rem;
+    color: var(--global-theme-color);
+    background-color: transparent;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+
+    &:hover {
+      color: var(--global-bg-color);
+      background-color: var(--global-theme-color);
+    }
+  }
+}

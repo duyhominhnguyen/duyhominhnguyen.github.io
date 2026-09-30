@@ -4,12 +4,33 @@
 // or rendered as a flat list (group_by: none, e.g. the About page's
 // "selected papers" section) by reading the year straight out of each
 // entry's .periodical text.
+//
+// Add data-default-year="2026" on the placeholder div to have that year
+// selected by default instead of "All" (falls back to "All" if that year
+// isn't found among the actual entries).
 (function () {
   function yearFromEntry(li) {
     var periodical = li.querySelector(".periodical");
     var text = periodical ? periodical.textContent : li.textContent;
     var match = text.match(/(19|20)\d{2}/g);
     return match ? match[match.length - 1] : null;
+  }
+
+  function applyFilter(year, bar, entries, yearHeadings) {
+    bar.querySelectorAll(".pub-filter-btn").forEach(function (b) {
+      b.classList.toggle("active", b.dataset.year === year);
+    });
+
+    entries.forEach(function (entry) {
+      entry.el.style.display = year === "all" || entry.year === year ? "" : "none";
+    });
+
+    // If the bibliography is grouped by year (main publications page),
+    // also hide/show the year headings themselves.
+    yearHeadings.forEach(function (h2) {
+      var headingYear = h2.textContent.trim();
+      h2.style.display = year === "all" || headingYear === year ? "" : "none";
+    });
   }
 
   function initPubYearFilter(container) {
@@ -35,7 +56,7 @@
 
     var allBtn = document.createElement("button");
     allBtn.type = "button";
-    allBtn.className = "pub-filter-btn active";
+    allBtn.className = "pub-filter-btn";
     allBtn.dataset.year = "all";
     allBtn.textContent = "All";
     bar.appendChild(allBtn);
@@ -51,25 +72,16 @@
 
     var yearHeadings = container.querySelectorAll("h2.bibliography");
 
+    // Default selection: use data-default-year if it's one of the years
+    // actually present, otherwise fall back to "all".
+    var requestedDefault = bar.dataset.defaultYear;
+    var initialYear = requestedDefault && years.indexOf(requestedDefault) !== -1 ? requestedDefault : "all";
+    applyFilter(initialYear, bar, entries, yearHeadings);
+
     bar.addEventListener("click", function (e) {
       var btn = e.target.closest(".pub-filter-btn");
       if (!btn) return;
-      var year = btn.dataset.year;
-
-      bar.querySelectorAll(".pub-filter-btn").forEach(function (b) {
-        b.classList.toggle("active", b === btn);
-      });
-
-      entries.forEach(function (entry) {
-        entry.el.style.display = year === "all" || entry.year === year ? "" : "none";
-      });
-
-      // If the bibliography is grouped by year (main publications page),
-      // also hide/show the year headings themselves.
-      yearHeadings.forEach(function (h2) {
-        var headingYear = h2.textContent.trim();
-        h2.style.display = year === "all" || headingYear === year ? "" : "none";
-      });
+      applyFilter(btn.dataset.year, bar, entries, yearHeadings);
     });
   }
 
