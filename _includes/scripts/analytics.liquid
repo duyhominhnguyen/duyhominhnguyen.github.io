@@ -22,11 +22,3 @@
     cronitor('config', { clientKey: '{{site.cronitor_analytics}}' });
   </script>
 {% endif %}
-{% if site.visitor_globe.umami_website_id %}
-  <!-- Umami Analytics (powers the visitor globe widget on the About page) -->
-  <script
-    defer
-    src="https://cloud.umami.is/script.js"
-    data-website-id="{{ site.visitor_globe.umami_website_id }}"
-  ></script>
-{% endif %}
