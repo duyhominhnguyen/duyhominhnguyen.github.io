@@ -1,0 +1,1 @@
+{"name":"visitor-globe-proxy","private":true,"version":"1.0.0","type":"module","description":"Tiny serverless proxy that lets the public UmamiMaps widget on duyhominhnguyen.github.io read aggregated visitor-country data from Umami without exposing Umami credentials in the browser.","dependencies":{"umami-maps":"latest"}}
