@@ -1180,3 +1180,17 @@ ninja-keys::part(ninja-input-wrapper) {
     }
   }
 }
+
+/*****************************************************************************/
+/* Roman-numeral style lists inside inline news items, e.g. "(i) ... (ii) ..." */
+/*****************************************************************************/
+
+.news-roman-list {
+  list-style: none;
+  margin: 0.25rem 0;
+  padding-left: 0;
+
+  li {
+    margin-bottom: 0.15rem;
+  }
+}
