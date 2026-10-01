@@ -14,7 +14,7 @@
     - title: Ph.D. Candidate
       image: imprs-is.jpg
       institution: Max Planck Research School for Intelligent Systems (IMPRS-IS) and University of Stuttgart
-      year: Now
+      year: 2023 - Now
       description:
         - "Hybrid Discrete-Continuous Learning, Scalable Algorithms for Multi-modal Learning, Machine Learning for Healthcare and Simulation Science"
         - "Supervisor: <a href=\"https://www.matlog.net/\">Prof. Mathias Niepert</a>"
@@ -39,7 +39,7 @@
     - title: Invited Researcher - Robotics Foundation Model Bootcamp
       image: rig.jpeg
       institution: "Robotics Institute Germany <a href=\"https://robotics-institute-germany.de/\">(RIG)</a>"
-      year: 2026
+      year: Winter 2026
 
     - title: Full-time Researcher
       image: dfki.png
@@ -64,7 +64,7 @@
     - title: Research Intern
       image: jaist.jpg
       institution: "Japan Advanced Institute of Science and Technology <a href=\"https://www.jaist.ac.jp/english/\">(JAIST)</a>"
-      year: 2015
+      year: Summer 2015
 
 - title: Honors and Awards
   type: time_table
