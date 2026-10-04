@@ -1200,16 +1200,16 @@ ninja-keys::part(ninja-input-wrapper) {
 /*****************************************************************************/
 
 .publications ol.bibliography li.pub-year-divider {
+  /* Same look as the year headings on the /publications/ page */
   list-style: none;
-  margin: 1.5rem 0 0 0;
-  padding: 0;
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  color: var(--global-theme-color);
-  opacity: 0.18;
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding: 1rem 0 0 0;
+  margin: 2rem 0 1rem 0;
+  text-align: right;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
   pointer-events: none;
   user-select: none;
-  border: 0;
 }
