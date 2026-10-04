@@ -1194,3 +1194,22 @@ ninja-keys::part(ninja-input-wrapper) {
     margin-bottom: 0.15rem;
   }
 }
+
+/*****************************************************************************/
+/* Faded year markers in the "All" view of the publication list */
+/*****************************************************************************/
+
+.publications ol.bibliography li.pub-year-divider {
+  list-style: none;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--global-theme-color);
+  opacity: 0.18;
+  pointer-events: none;
+  user-select: none;
+  border: 0;
+}

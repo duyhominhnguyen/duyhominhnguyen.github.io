@@ -16,13 +16,18 @@
     return match ? match[match.length - 1] : null;
   }
 
-  function applyFilter(year, bar, entries, yearHeadings) {
+  function applyFilter(year, bar, entries, yearHeadings, dividers) {
     bar.querySelectorAll(".pub-filter-btn").forEach(function (b) {
       b.classList.toggle("active", b.dataset.year === year);
     });
 
     entries.forEach(function (entry) {
       entry.el.style.display = year === "all" || entry.year === year ? "" : "none";
+    });
+
+    // Faded year markers between groups are only shown in the "All" view.
+    dividers.forEach(function (d) {
+      d.style.display = year === "all" ? "" : "none";
     });
 
     // If the bibliography is grouped by year (main publications page),
@@ -72,16 +77,35 @@
 
     var yearHeadings = container.querySelectorAll("h2.bibliography");
 
+    // For flat (non-grouped) lists, insert a faded year marker before the
+    // first paper of each year so the "All" view still shows year sections.
+    // Assumes entries are already in (reverse) chronological order.
+    var dividers = [];
+    if (!yearHeadings.length) {
+      var previousYear = null;
+      entries.forEach(function (e) {
+        if (!e.year || e.year === previousYear) return;
+        previousYear = e.year;
+        var divider = document.createElement("li");
+        divider.className = "pub-year-divider";
+        divider.setAttribute("aria-hidden", "true");
+        divider.dataset.year = e.year;
+        divider.textContent = e.year;
+        e.el.parentNode.insertBefore(divider, e.el);
+        dividers.push(divider);
+      });
+    }
+
     // Default selection: use data-default-year if it's one of the years
     // actually present, otherwise fall back to "all".
     var requestedDefault = bar.dataset.defaultYear;
     var initialYear = requestedDefault && years.indexOf(requestedDefault) !== -1 ? requestedDefault : "all";
-    applyFilter(initialYear, bar, entries, yearHeadings);
+    applyFilter(initialYear, bar, entries, yearHeadings, dividers);
 
     bar.addEventListener("click", function (e) {
       var btn = e.target.closest(".pub-filter-btn");
       if (!btn) return;
-      applyFilter(btn.dataset.year, bar, entries, yearHeadings);
+      applyFilter(btn.dataset.year, bar, entries, yearHeadings, dividers);
     });
   }
 
