@@ -1202,7 +1202,7 @@ ninja-keys::part(ninja-input-wrapper) {
 .publications ol.bibliography li.pub-year-divider {
   /* Same look as the year headings on the /publications/ page */
   list-style: none;
-  color: var(--global-divider-color);
+  color: var(--global-text-color-light);
   border-top: 1px solid var(--global-divider-color);
   padding: 1rem 0 0 0;
   margin: 2rem 0 1rem 0;
