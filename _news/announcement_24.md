@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-🔔 Check out our new papers accepted at the [**NeurIPS 2026**](https://neurips.cc/), Sydney, Australia 🇦🇺. The papers cover:
+🔔 Check out our new papers accepted at the **[NeurIPS 2026](https://neurips.cc/)**, Sydney, Australia 🇦🇺. The papers cover:
 <br>&nbsp;&nbsp;(i) **spatial and multi-view geometric reasoning** in VLMs,
 <br>&nbsp;&nbsp;(ii) **safety alignments** in LLMs,
 <br>&nbsp;&nbsp;(iii) how reinforcement learning shapes the **behavior and reasoning capabilities of LLMs during post-training**.
