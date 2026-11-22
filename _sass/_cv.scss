@@ -213,3 +213,12 @@ ul.timeline li::before {
      color: var(--global-text-color);
 }
 */
+
+/*****************************
+ * Spacing between items in the same CV entry
+ * (e.g. two awards listed under the same year)
+ *****************************/
+
+.cv ul.items > li + li {
+  margin-top: 0.75rem;
+}
