@@ -18,11 +18,12 @@ under_review_papers: true # includes a list of papers marked as "review={true}"
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently a final-year Ph.D. Candidate under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)) and [University of Stuttgart](https://www.simtech.uni-stuttgart.de/). I have also been a Researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
+I recently completed my Ph.D. in Computer Science (summa cum laude) under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at the Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)) and the [University of Stuttgart](https://www.ki.uni-stuttgart.de/), co-supervised by [Prof. Daniel Sonntag](https://www.dfki.de/~sonntag/). I have also been a Researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
 
-My topics of interest are 
-- Hybrid Discrete-Continuous Learning (differentiable relaxations for discrete intermediate representations)
-- Scalable Algorithms for Multi-modal Learning with applications for low-resouce domains such as Healthcare, Simulation Science, or Robotic Manipulation.
-- Efficient Deep Learning (model compression, accelerated training/inference, etc.) 
+My current research focuses on building **scalable, data-efficient multimodal models** that **perceive**, **reason**, and **act** in the physical world, with an emphasis on resource-constrained, high-stakes settings such as robotics (efficient, low-energy models) or healthcare (accurate learning from limited data). Representative research topics include:
 
-Please visit my [Google Scholar](https://scholar.google.com/citations?user=_NIyeykAAAAJ) for a full list of publications and [GitHub](https://github.com/duyhominhnguyen) for source codes.
+- **Physical AI**: vision-language-action (VLA) models, world models, and visual representation learning from large-scale unlabeled videos for agents such as robots and autonomous vehicles.
+- **Physical & Multimodal AI for Healthcare**: applying world-model principles to build next-generation medical foundation models that learn predictive dynamics from multimodal and time-series patient data, and bringing physical AI to clinical settings such as assistive and surgical robotics.
+- **Structured & Efficient Learnin**g: hybrid discrete-continuous learning with differentiable relaxations for discrete intermediate representations (e.g., graphs), and model compression for scalable training and inference.
+
+Please visit my [Google Scholar](https://scholar.google.com/citations?user=_NIyeykAAAAJ) for a full list of publications.
