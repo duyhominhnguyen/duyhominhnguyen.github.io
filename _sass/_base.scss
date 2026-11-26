@@ -185,9 +185,15 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
+  // Tighten the gap between the photo and the address so the address
+  // sits higher and stays clear of the text flowing beside it.
+  figure {
+    margin-bottom: 0;
+  }
+
   .more-info {
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 0;
     font-family: monospace;
 
     p {
@@ -1212,4 +1218,26 @@ ninja-keys::part(ninja-input-wrapper) {
   line-height: 1.2;
   pointer-events: none;
   user-select: none;
+}
+
+/*****************************************************************************/
+/* About page: research-interest bullet list */
+/*****************************************************************************/
+
+.post article > .clearfix > ul {
+  /* Keep the list in its own column next to the profile photo instead of
+     letting long lines wrap underneath it. */
+  display: flow-root;
+  margin: 1rem 0 1.25rem 0;
+  padding-left: 1.25rem;
+
+  li {
+    margin-bottom: 0.85rem;
+    line-height: 1.6;
+    padding-left: 0.25rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
