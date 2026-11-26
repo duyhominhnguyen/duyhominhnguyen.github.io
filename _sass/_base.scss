@@ -1225,19 +1225,31 @@ ninja-keys::part(ninja-input-wrapper) {
 /*****************************************************************************/
 
 .post article > .clearfix > ul {
-  /* Keep the list in its own column next to the profile photo instead of
-     letting long lines wrap underneath it. */
-  display: flow-root;
+  /* Each item is its own block, so the first items stay in a column next to
+     the profile photo, while an item that sits below the photo/address (the
+     last one) can use the full width instead of wrapping early. */
+  list-style: none;
   margin: 1rem 0 1.25rem 0;
-  padding-left: 1.25rem;
+  padding-left: 0;
 
   li {
+    display: flow-root;
+    position: relative;
     margin-bottom: 0.85rem;
+    padding-left: 1.5rem;
     line-height: 1.6;
-    padding-left: 0.25rem;
+
+    /* custom bullet (list-style markers do not work with flow-root) */
+    &::before {
+      content: "\2022";
+      position: absolute;
+      left: 0.45rem;
+      top: 0;
+    }
 
     &:last-child {
       margin-bottom: 0;
+      clear: both;
     }
   }
 }
