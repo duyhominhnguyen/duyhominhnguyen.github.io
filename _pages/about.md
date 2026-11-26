@@ -22,7 +22,7 @@ I recently completed my Ph.D. in Computer Science (summa cum laude) under the su
 
 My current research focuses on building **scalable, data-efficient multimodal models** that **perceive**, **reason**, and **act** in the physical world, with an emphasis on resource-constrained, high-stakes settings such as robotics (efficient, low-energy models) or healthcare (accurate learning from limited data). Representative research topics include:
 
-- **Physical AI**: vision-language-action (VLA) models, world models, and visual representation learning from large-scale unlabeled videos for agents such as robots and autonomous vehicles.
+- **Physical AI**: vision-language-action (VLA) models, world models, and visual representation learning from large-scale videos for agents such as robots and autonomous vehicles.
 - **Physical & Multimodal AI for Healthcare**: applying world-model principles to build next-generation medical foundation models that learn predictive dynamics from multimodal and time-series patient data, and bringing physical AI to clinical settings such as assistive and surgical robotics.
 - **Structured & Efficient Learning**: hybrid discrete-continuous learning with differentiable relaxations for discrete intermediate representations (e.g., graphs), and model compression for scalable training and inference.
 
