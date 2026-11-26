@@ -18,7 +18,7 @@ under_review_papers: true # includes a list of papers marked as "review={true}"
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I recently completed my Ph.D. in Computer Science (summa cum laude) under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at the Max Planck Research School for Intelligent Systems ([IMPRS-IS](https://imprs.is.mpg.de/)) and the [University of Stuttgart](https://www.ki.uni-stuttgart.de/), co-supervised by [Prof. Daniel Sonntag](https://www.dfki.de/~sonntag/). I have also been a Researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
+I recently completed my Ph.D. in Computer Science (summa cum laude) under the supervision of [Prof. Mathias Niepert](https://www.matlog.net/) at the [Max Planck Research School for Intelligent Systems (IMPRS-IS)](https://imprs.is.mpg.de/) and the [University of Stuttgart](https://www.ki.uni-stuttgart.de/), co-supervised by [Prof. Daniel Sonntag](https://www.dfki.de/~sonntag/). I have also been a Researcher at the German Research Center for Artificial Intelligence ([DFKI](https://www.dfki.de/en/web)) since 2021.
 
 My current research focuses on building **scalable, data-efficient multimodal models** that **perceive**, **reason**, and **act** in the physical world, with an emphasis on resource-constrained, high-stakes settings such as robotics (efficient, low-energy models) or healthcare (accurate learning from limited data). Representative research topics include:
 
